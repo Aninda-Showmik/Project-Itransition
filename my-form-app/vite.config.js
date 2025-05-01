@@ -7,13 +7,5 @@ export default defineConfig({
     loader: 'jsx',
     include: /\.jsx?$/,
   },
-  server: {
-    proxy: {
-      '/api': {
-        target: 'http://localhost:5000',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
-      },
-    },
-  },
+  base: './', // Ensures correct relative paths for static deployment
 });
