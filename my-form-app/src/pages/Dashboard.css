@@ -1,0 +1,23 @@
+/* Dashboard.css */
+
+.role-label {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .role-indicator {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .admin {
+    background-color: #f44336; /* Red for Admin */
+    color: white;
+  }
+  
+  .user {
+    background-color: #4CAF50; /* Green for User */
+    color: white;
+  }
+  

@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "ngrok": "ngrok http 5000"
+  },
+  "dependencies": {
+    "@clerk/backend": "^1.27.3",
+    "@clerk/clerk-sdk-node": "^5.1.6",
+    "@clerk/express": "^1.4.7",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "pg": "^8.14.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "ngrok": "^4.3.3",
+    "nodemon": "^3.1.9"
+  }
+}
